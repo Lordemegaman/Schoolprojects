@@ -1,0 +1,59 @@
+/* blue.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #3a6db3;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
